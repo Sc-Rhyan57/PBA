@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Pibby with a gunn.png">
+<SubTexture name="Pibby with a gunn idle0000" x="302" y="767" width="164" height="187" frameX="-261" frameY="-114" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn idle0001" x="0" y="979" width="165" height="181" frameX="-259" frameY="-120" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn idle0002" x="1060" y="0" width="164" height="186" frameX="-261" frameY="-115" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn idle0003" x="466" y="767" width="164" height="187" frameX="-261" frameY="-114" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn idle0004" x="630" y="767" width="164" height="187" frameX="-261" frameY="-114" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn idle0005" x="794" y="767" width="164" height="187" frameX="-261" frameY="-114" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Left0000" x="165" y="979" width="295" height="177" frameX="-311" frameY="-126" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Left0001" x="0" y="767" width="302" height="212" frameX="-312" frameY="-91" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Left0002" x="460" y="979" width="200" height="176" frameX="-310" frameY="-127" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Left0003" x="660" y="979" width="200" height="176" frameX="-310" frameY="-127" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Left0004" x="660" y="979" width="200" height="176" frameX="-310" frameY="-127" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Down0000" x="776" y="479" width="176" height="226" frameX="-310" frameY="-80" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Down0001" x="776" y="247" width="175" height="232" frameX="-309" frameY="-74" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Down0002" x="1060" y="186" width="146" height="170" frameX="-330" frameY="-136" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Down0003" x="1060" y="186" width="146" height="170" frameX="-330" frameY="-136" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Down0004" x="1060" y="186" width="146" height="170" frameX="-330" frameY="-136" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Up0000" x="776" y="0" width="284" height="247" frameX="-192" frameY="-56" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Up0001" x="0" y="0" width="290" height="256" frameX="-186" frameY="-46" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Up0002" x="290" y="0" width="243" height="256" frameX="-233" frameY="-47" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Up0003" x="0" y="256" width="243" height="256" frameX="-233" frameY="-47" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Up0004" x="243" y="256" width="243" height="256" frameX="-233" frameY="-47" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Right0000" x="533" y="0" width="243" height="255" frameX="-233" frameY="-47" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Right0001" x="0" y="512" width="247" height="255" frameX="-229" frameY="-47" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Right0002" x="533" y="255" width="243" height="255" frameX="-233" frameY="-47" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Right0003" x="247" y="512" width="243" height="255" frameX="-233" frameY="-47" frameWidth="690" frameHeight="388" />
+<SubTexture name="Pibby with a gunn Right0004" x="490" y="512" width="243" height="255" frameX="-233" frameY="-47" frameWidth="690" frameHeight="388" />
+</TextureAtlas>
