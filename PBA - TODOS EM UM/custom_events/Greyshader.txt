@@ -1,0 +1,5 @@
+value1 = nivel de gris
+
+
+
+maximo es 1 xd
