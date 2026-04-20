@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				75,
+				20
+			],
+			"anim": "singDOWN",
+			"fps": 20,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				110,
+				40
+			],
+			"anim": "singUP",
+			"fps": 20,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				30
+			],
+			"anim": "singLEFT",
+			"fps": 20,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				-25
+			],
+			"anim": "singRIGHT",
+			"fps": 20,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				85,
+				35
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/fallen-hero-retake-finn",
+	"position": [
+		-180,
+		0
+	],
+	"healthicon": "finn",
+	"flip_x": false,
+	"healthbar_colors": [
+		125,
+		133,
+		157
+	],
+	"camera_position": [
+		-150,
+		-260
+	],
+	"sing_duration": 6.1,
+	"scale": 1.5,
+	"_editor_isPlayer": false
+}
