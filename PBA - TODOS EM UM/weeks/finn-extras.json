@@ -1,0 +1,87 @@
+{
+	"storyName": "Finn Extras",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"back",
+		"menu_finnjake"
+	],
+	"songs": [
+		[
+			"Suffering Siblings Old",
+			"finn",
+			[
+				82,
+				165,
+				235
+			],
+			95
+		],
+    [
+			"blessed-by-swords-old",
+			"finn",
+			[
+				82,
+				165,
+				235
+			],
+			95
+		],
+    [
+			"fallen-hero",
+			"finn",
+			[
+				82,
+				165,
+				235
+			],
+			95
+		],
+		[
+			"sword-fight",
+			"finn",
+			[
+				82,
+				165,
+				235
+			],
+			95
+		],
+    [
+			"its-adventure-time",
+			"finn",
+			[
+				82,
+				165,
+				235
+			],
+			95
+		],
+    [
+			"No Hero Remix",
+			"finnbad",
+			[
+				82,
+				165,
+				235
+			],
+			95
+		],
+    [
+			"corrupted-hero-remix",
+			"susy",
+			[
+				82,
+				165,
+				235
+			],
+			95
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Finn Extras"
+}
