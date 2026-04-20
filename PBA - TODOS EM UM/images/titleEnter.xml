@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="titleEnter.png" width="2224" height="56">
+  <SubTexture name="ENTER PRESSED0001.png" x="0" y="0"  width="278" height="56" frameX="-0" frameY="-0" frameWidth="278" frameHeight="56"/>
+  <SubTexture name="ENTER PRESSED0002.png" x="278" y="0"  width="278" height="56" frameX="-0" frameY="-0" frameWidth="278" frameHeight="56"/>
+  <SubTexture name="ENTER PRESSED0003.png" x="556" y="0"  width="278" height="56" frameX="-0" frameY="-0" frameWidth="278" frameHeight="56"/>
+  <SubTexture name="ENTER PRESSED0004.png" x="834" y="0"  width="278" height="56" frameX="-0" frameY="-0" frameWidth="278" frameHeight="56"/>
+  <SubTexture name="ENTER PRESSED0005.png" x="1112" y="0"  width="278" height="56" frameX="-0" frameY="-0" frameWidth="278" frameHeight="56"/>
+  <SubTexture name="ENTER PRESSED0006.png" x="1390" y="0"  width="278" height="56" frameX="-0" frameY="-0" frameWidth="278" frameHeight="56"/>
+  <SubTexture name="ENTER PRESSED0000.png" x="1668" y="0"  width="278" height="29" frameX="-0" frameY="-19" frameWidth="278" frameHeight="56"/>
+  <SubTexture name="Press Enter to Begin0000.png" x="1946" y="0"  width="278" height="24" frameX="-0" frameY="-19" frameWidth="278" frameHeight="56"/>
+</TextureAtlas>
