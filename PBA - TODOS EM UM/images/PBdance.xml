@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PBdance.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PBidle0000" x="0" y="0" width="453" height="763"/>
+	<SubTexture name="PBidle0001" x="0" y="0" width="453" height="763"/>
+	<SubTexture name="PBidle0002" x="453" y="0" width="453" height="763"/>
+	<SubTexture name="PBidle0003" x="453" y="0" width="453" height="763"/>
+	<SubTexture name="PBidle0004" x="906" y="0" width="453" height="763"/>
+	<SubTexture name="PBidle0005" x="906" y="0" width="453" height="763"/>
+	<SubTexture name="PBidle0006" x="1359" y="0" width="453" height="763"/>
+	<SubTexture name="PBidle0007" x="1359" y="0" width="453" height="763"/>
+	<SubTexture name="PBidle0008" x="1359" y="0" width="453" height="763"/>
+	<SubTexture name="PBidle0009" x="1359" y="0" width="453" height="763"/>
+	<SubTexture name="PBidle0010" x="1359" y="0" width="453" height="763"/>
+	<SubTexture name="PBidle0011" x="1359" y="0" width="453" height="763"/>
+	<SubTexture name="PBidle0012" x="1359" y="0" width="453" height="763"/>
+	<SubTexture name="PBidle0013" x="1359" y="0" width="453" height="763"/>
+</TextureAtlas>
