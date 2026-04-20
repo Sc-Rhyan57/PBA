@@ -1,0 +1,27 @@
+{
+	"storyName": "Come Along With Me",
+	"difficulties": "Normal, extend, pafanbuild",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "finn-extras",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"back",
+		"menu_finncawn"
+	],
+	"songs": [
+		[
+			"Come Along With Me",
+			"finnlie",
+			[
+				82,
+				165,
+				235
+			],
+			75
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "cawm"
+}
