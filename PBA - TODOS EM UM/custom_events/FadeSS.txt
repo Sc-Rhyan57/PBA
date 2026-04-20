@@ -1,0 +1,25 @@
+v1:
+
+BFxJ = BF and Jake
+BFxF = BF and Finn
+
+BFxP = Pibby and BF
+
+BFxPxJ = Pibby and BF and Jake
+BFxPxF = Pibby and BF and Finn
+
+FxJxP = Finn and Jake and Pibby
+FxJxBF = Finn and Jake and BF
+
+PxF = Pibby and Finn 
+PxJ = Pibby and Jake
+
+FxJ = Finn and Jake
+
+F = Finn
+J = Jake
+BF = BF
+P = Pibby
+
+
+Everyone = Everyone :v
