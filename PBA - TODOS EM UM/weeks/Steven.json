@@ -1,0 +1,27 @@
+{
+	"storyName": "Steven Week",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"back",
+		"menu_steven"
+	],
+	"songs": [
+		[
+			"Codename-Steven",
+			"steven",
+			[
+				82,
+				165,
+				235
+			],
+			95
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Steven"
+}
