@@ -1,0 +1,135 @@
+offsetZoom = 0.14
+offsetZoomBack = 0.06
+default = getProperty('defaultCamZoom')
+function onCreatePost()
+if songName ~= 'FreePlay' and songName ~= 'Credits' then
+ runTimer('intro3',0.5)
+ makeAnimatedLuaSprite('numbers','Numbers',500,200)
+ addAnimationByPrefix('numbers','1','1',24,false)
+ addAnimationByPrefix('numbers','2','2',24,false)
+ addAnimationByPrefix('numbers','3','3',24,false)
+ addAnimationByPrefix('numbers','Go','Go',24,false)
+
+ scaleObject('numbers',0.8,0.8)
+ setProperty('numbers.alpha',0)
+ setObjectCamera('numbers','camOther')
+ addLuaSprite('numbers',true)
+ nameGF = getProperty('gf.curCharacter')
+ nameBF = getProperty('boyfriend.curCharacter')
+setProperty('camHUD.alpha',0)
+setProperty("skipCountdown", true)
+   addCharacterToList('bf_intro', 'bf');
+   addCharacterToList('pibby_intro', 'gf');
+follow=true
+end
+end
+
+function onTimerCompleted(tag)
+if tag=='intro3' then
+   triggerEvent('fixBFOffset','first','')
+setProperty('numbers.alpha',1)
+triggerEvent('Change Character',0,'bf_intro')
+setProperty('numbers.offset.x',60)
+setProperty('numbers.offset.y',60)
+   if nameGF == 'pibby' then
+   triggerEvent('Change Character',2,nameGF..'_intro')
+   end
+   objectPlayAnimation('numbers','3',false)
+characterPlayAnim('gf','3', true)
+characterPlayAnim('bf','3' , true)
+setProperty('gf.flipX',false)
+setProperty('camGame.zoom',getProperty('camGame.zoom')+offsetZoom)
+doTweenZoom('camGame','camGame',getProperty('camGame.zoom')-offsetZoomBack,0.4,'quartOut')
+playSound('3')
+runTimer('intro2',0.67)
+pause = true
+end
+
+if tag=='intro2' then
+setProperty('numbers.alpha',1)
+setProperty('numbers.offset.x',0)
+setProperty('numbers.offset.y',0)
+characterPlayAnim('gf','2', true)
+characterPlayAnim('bf','2' , true)
+objectPlayAnimation('numbers','2',false)
+setProperty('camGame.zoom',getProperty('camGame.zoom')+offsetZoom)
+doTweenZoom('camGame','camGame',getProperty('camGame.zoom')-offsetZoomBack,0.4,'quartOut')
+playSound('2')
+runTimer('intro1',0.67)
+runTimer('End',0.5)
+end
+
+if tag=='intro1' then
+setProperty('numbers.alpha',1)
+characterPlayAnim('gf','1', true)
+characterPlayAnim('bf','1' , true)
+objectPlayAnimation('numbers','1',false)
+setProperty('camGame.zoom',getProperty('camGame.zoom')+offsetZoom)
+doTweenZoom('camGame','camGame',getProperty('camGame.zoom')-offsetZoomBack,0.4,'quartOut')
+playSound('1')
+runTimer('introGo',0.67)
+runTimer('End',0.5)
+end
+
+if tag=='introGo' then
+setProperty('numbers.alpha',1)
+characterPlayAnim('gf','Go', true)
+characterPlayAnim('bf','Go' , true)
+setProperty('numbers.offset.x',140)
+setProperty('numbers.offset.y',50)
+objectPlayAnimation('numbers','Go',false)
+setProperty('camGame.zoom',getProperty('camGame.zoom')+offsetZoom)
+doTweenZoom('camGame','camGame',default,0.4,'quartOut')
+playSound('go')
+runTimer('start',0.25)
+runTimer('End',0.5)
+end
+
+if tag =='End' then
+removeLuaSprite('numbers', false)
+end
+
+if tag=='start' then
+   setPropertyFromClass('flixel.FlxG', 'sound.music.volume', 1)
+   setProperty('vocals.volume', 1)		
+cameraFlash('camOther','ffffff',0.4)
+
+triggerEvent('Change Character',0,nameBF)
+triggerEvent('Change Character',2,nameGF)
+triggerEvent('fixBFOffset','end','')-- fix Offset of BF Retcon
+follow=false
+pause = false
+end
+end
+
+function onSongStart()
+setProperty('camHUD.alpha',1)
+triggerEvent('fixBFOffset','startSong','')
+end
+
+function onCountdownTick(counter)
+if counter  ==  1 then
+end
+end
+
+function onUpdate()
+if follow == true then
+triggerEvent('Camera Follow Pos',getProperty('boyfriend.x') -150,getProperty('boyfriend.y')+ 100)
+--else triggerEvent('Camera Follow Pos','','')
+end 
+end
+
+function onUpdatePost(elapsed)
+if pause == true then
+      setPropertyFromClass('backend.Conductor', 'songPosition', getPropertyFromClass('backend.Conductor', 'songPosition') - elapsed * 1000  )
+		setPropertyFromClass('flixel.FlxG', 'sound.music.time', getPropertyFromClass('backend.Conductor', 'songPosition'))
+		setProperty('vocals.time', getPropertyFromClass('Conductor', 'songPosition'))
+		setPropertyFromClass('flixel.FlxG', 'sound.music.volume', 0)
+		setProperty('vocals.volume', 0)
+	end
+
+   if follow == true then
+      triggerEvent('Camera Follow Pos',getProperty('boyfriend.x') -150,getProperty('boyfriend.y')+ 100)
+      --else triggerEvent('Camera Follow Pos','','')
+      end 
+end
