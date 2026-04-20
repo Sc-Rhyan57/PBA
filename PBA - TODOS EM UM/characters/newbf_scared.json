@@ -1,0 +1,179 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				14,
+				22
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "BF idle dance"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-80,
+				-19
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				25
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				145,
+				76
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-65,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left0"
+		},
+		{
+			"offsets": [
+				-24,
+				36
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "reload",
+			"indices": [],
+			"name": "BF reload"
+		},
+		{
+			"offsets": [
+				100,
+				135
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "shootRIGHT",
+			"indices": [],
+			"name": "Bf Shoot R"
+		},
+		{
+			"offsets": [
+				250,
+				125
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "shootLEFT",
+			"indices": [],
+			"name": "Bf Shoot L"
+		},
+		{
+			"offsets": [
+				90,
+				105
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "shootUP",
+			"indices": [],
+			"name": "Bf Shoot U"
+		},
+		{
+			"offsets": [
+				130,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "shootDOWN",
+			"indices": [],
+			"name": "Bf Shoot D"
+		},
+		{
+			"offsets": [
+				-50,
+				25
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodgeRIGHT",
+			"indices": [],
+			"name": "dodge right"
+		},
+		{
+			"offsets": [
+				25,
+				85
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodgeUP",
+			"indices": [],
+			"name": "up dodge"
+		},
+		{
+			"offsets": [
+				95,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodgeDOWN",
+			"indices": [],
+			"name": "down dodge"
+		},
+		{
+			"offsets": [
+				105,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodgeLEFT",
+			"indices": [],
+			"name": "left dodge"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/cartoon_bf_Gun_scared",
+	"position": [
+		160,
+		480
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		200,
+		-160
+	],
+	"sing_duration": 4,
+	"scale": 2.1,
+	"_editor_isPlayer": true
+}
