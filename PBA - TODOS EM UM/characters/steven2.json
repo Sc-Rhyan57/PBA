@@ -1,0 +1,77 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				110,
+				-30
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "idle",
+			"indices": [],
+			"name": "Steven Idle"
+		},
+		{
+			"offsets": [
+				120,
+				-30
+			],
+			"loop": true,
+			"fps": 15,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Steven Left"
+		},
+		{
+			"offsets": [
+				114,
+				-32
+			],
+			"loop": true,
+			"fps": 15,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Steven Down"
+		},
+		{
+			"offsets": [
+				103,
+				-28
+			],
+			"loop": true,
+			"fps": 15,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Steven Right"
+		},
+		{
+			"offsets": [
+				109,
+				-30
+			],
+			"loop": true,
+			"fps": 15,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Steven Up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/steven2",
+	"position": [
+		-540,
+		160
+	],
+	"healthicon": "icon-steven",
+	"flip_x": false,
+	"healthbar_colors": [
+		243,
+		137,
+		194
+	],
+	"camera_position": [
+		-270,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale":0.950}
