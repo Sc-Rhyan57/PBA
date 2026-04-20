@@ -1,0 +1,54 @@
+local scoreDivider = " ][ "
+
+function math.roundDecimal(num, numDecimalPlaces)
+    local mult = 10^(numDecimalPlaces or 0)
+    return math.floor(num * mult + 0.5) / mult
+end
+
+function onCreate()
+    get = getProperty
+    getFromClass = getPropertyFromClass
+    getFromGroup = getPropertyFromGroup
+    set = setProperty
+    setFromClass = setPropertyFromClass
+    setFromGroup = setPropertyFromGroup
+
+    string.startsWith = stringStartsWith
+    string.endsWith = stringEndsWith
+    string.split = stringSplit
+end
+
+function onCreatePost()
+    set("scoreTxt.size", 18)
+    set("scoreTxt.borderSize", 1.5)
+    set("scoreTxt.antialiasing", getFromClass("ClientPrefs", "globalAntialiasing"))
+end
+
+function getRank()
+    local rankShits = {
+        {100, "S+"},
+        {90, "S"},
+        {85, "A"},
+        {80, "B"},
+        {70, "C"},
+        {60, "D"},
+        {50, "E"},
+        {40, "F"},
+        {30, "L"},
+        {0, "L-"},
+    }
+
+    local retRank = "N/A"
+    for i = 1, #rankShits do
+        if rankShits[i][1] >= (get("ratingPercent") * 100) then
+            retRank = rankShits[i][2]
+        end
+    end
+    return retRank
+end
+
+function onUpdatePost(elapsed)
+    local dumbRank = get("ratingName") == "?" and "N/A" or getRank()
+    set("scoreTxt.text", "Pontuação: "..get("songScore")..scoreDivider.." ERROS: "..get("songMisses")..scoreDivider.."ACC: "..math.roundDecimal(get("ratingPercent") * 100, 2).."%"..scoreDivider.."Rank: "..dumbRank)
+    scaleObject("scoreTxt", 1, 1)
+end
