@@ -1,0 +1,9 @@
+--function opponentNoteHit(id, direction, noteType, isSustainNote)
+    --if noteType == 'SliceNote' then 
+      --  playSound('slice', 0.5)
+     --   local dadx = getProperty('dad.x')
+      --  local bfx = getProperty('boyfriend.x')
+     --   setProperty('dad.x',dadx + 30)
+     --   setProperty('boyfriend.x',bfx + 30)
+  --  end
+--end
