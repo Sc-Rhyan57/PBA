@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bfscared.png">
+<SubTexture name="scared0000" x="0" y="0" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0001" x="720" y="0" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0002" x="1440" y="0" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0003" x="0" y="880" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0004" x="720" y="880" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0005" x="1440" y="880" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0006" x="2160" y="0" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0007" x="2160" y="880" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0008" x="0" y="1760" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0009" x="720" y="1760" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0010" x="1440" y="1760" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0011" x="2160" y="1760" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0012" x="2880" y="0" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0013" x="2880" y="880" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0014" x="2880" y="1760" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0015" x="0" y="2640" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+<SubTexture name="scared0016" x="720" y="2640" width="720" height="880" frameX="0" frameY="0" frameWidth="720" frameHeight="880" />
+</TextureAtlas>
