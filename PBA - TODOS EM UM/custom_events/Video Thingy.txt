@@ -1,0 +1,2 @@
+Value 1 = Video name
+Value 2 = Camera Position (Game, HUD, Other)
