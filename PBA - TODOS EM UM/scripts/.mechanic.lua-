@@ -1,0 +1,43 @@
+function onCreate()
+    if getPropertyFromClass('PlayState', 'chartingMode') == true or botPlay then
+    makeLuaSprite('PB',nil,1,nil)
+    end
+end
+
+function onUpdate()
+    if getPropertyFromClass('PlayState', 'chartingMode') == true or botPlay then
+    setProperty('playbackRate',getProperty('PB.x'))
+	end
+end
+
+function onStepHit()
+    if getPropertyFromClass('PlayState', 'chartingMode') == true or botPlay then
+        if curStep == 150 then
+            doTweenX('jqhsjsbdbx','PB',0.00001,1,'quadInOut')
+            doTweenColor('niggBF', 'boyfriend', '000000', 0.7, 'linear');
+            doTweenColor('niggDAD', 'dad', '000000', 0.7, 'linear');
+            doTweenColor('niggGF', 'gf', '000000', 0.7, 'linear');
+            doTweenColor('niggJake', 'Jake', '000000', 0.7, 'linear');
+            playSound('screamer', 0.1)
+        end
+    end
+end
+
+function onTweenCompleted(n)
+    if n == 'jqhsjsbdbx' then
+        startVideo('anti-cheat')
+        setProperty('inCutscene',true)
+        runTimer('bruhhhhh',17.7)
+        setProperty('canPause',false)
+        stopSound('screamer')
+    end 
+    
+end
+
+function onTimerCompleted(n)
+    if n == 'bruhhhhh' then
+        setProperty('health',0)
+        setProperty('PB.x',1)
+        setProperty('inCutscene',false)
+    end
+end
