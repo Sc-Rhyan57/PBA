@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-146,
+				-221
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "singUP",
+			"indices": [],
+			"name": "gumball sprites oh god no gumball up sprites"
+		},
+		{
+			"offsets": [
+				-130,
+				-217
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "gumball sprites oh god no gumball down sprites"
+		},
+		{
+			"offsets": [
+				-144,
+				-220
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "gumball sprites oh god no gumball right sprites"
+		},
+		{
+			"offsets": [
+				-154,
+				-219
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "gumball sprites oh god no gumball left sprites"
+		},
+		{
+			"offsets": [
+				-140,
+				-220
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "idle",
+			"loop": false,
+			"name": "gumball sprites oh god no gumball idle sprites"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/gumballg",
+	"position": [
+		-990,
+		-430
+	],
+	"healthicon": "gumballfake-pafanbuild",
+	"flip_x": false,
+	"healthbar_colors": [
+		68,
+		158,
+		249
+	],
+	"camera_position": [
+		580,
+		580
+	],
+	"sing_duration": 3,
+	"scale": 0.599999999999999
+}
