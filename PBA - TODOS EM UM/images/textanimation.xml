@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="textanimation.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="loop0000" x="0" y="536" width="792" height="89" frameX="-251" frameY="-287" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0001" x="0" y="269" width="792" height="89" frameX="-251" frameY="-287" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0002" x="0" y="180" width="792" height="89" frameX="-251" frameY="-287" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0003" x="0" y="447" width="792" height="89" frameX="-251" frameY="-287" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0004" x="0" y="625" width="792" height="89" frameX="-251" frameY="-287" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0005" x="0" y="0" width="792" height="90" frameX="-251" frameY="-286" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0006" x="0" y="358" width="792" height="89" frameX="-251" frameY="-287" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0007" x="0" y="90" width="792" height="90" frameX="-251" frameY="-286" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0008" x="0" y="536" width="792" height="89" frameX="-251" frameY="-287" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0009" x="0" y="180" width="792" height="89" frameX="-251" frameY="-287" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0010" x="0" y="447" width="792" height="89" frameX="-251" frameY="-287" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0011" x="0" y="536" width="792" height="89" frameX="-251" frameY="-287" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0012" x="0" y="625" width="792" height="89" frameX="-251" frameY="-287" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0013" x="0" y="0" width="792" height="90" frameX="-251" frameY="-286" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0014" x="0" y="358" width="792" height="89" frameX="-251" frameY="-287" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>
