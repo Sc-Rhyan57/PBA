@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Jakes.png">
+<SubTexture name="Jakes0000" x="0" y="0" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="Jakes0001" x="640" y="0" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="Jakes0002" x="640" y="0" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="Jakes0003" x="0" y="480" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="Jakes0004" x="0" y="480" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="Jakes0005" x="640" y="480" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="Jakes0006" x="640" y="480" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="Jakes0007" x="640" y="0" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="Jakes0008" x="640" y="0" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="Jakes0009" x="0" y="0" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+</TextureAtlas>
