@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pibby-recreate.png">
+	<SubTexture name="Idle0000" x="0" y="0" width="502" height="500" frameX="-78" frameY="-58" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Idle0001" x="0" y="0" width="502" height="500" frameX="-78" frameY="-58" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Idle0002" x="0" y="0" width="502" height="500" frameX="-78" frameY="-58" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Idle0003" x="0" y="0" width="502" height="500" frameX="-78" frameY="-58" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Idle0004" x="502" y="0" width="499" height="498" frameX="-82" frameY="-63" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Idle0005" x="502" y="0" width="499" height="498" frameX="-82" frameY="-63" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Idle0006" x="0" y="500" width="498" height="494" frameX="-82" frameY="-63" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Idle0007" x="498" y="500" width="498" height="494" frameX="-82" frameY="-64" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="Idle0008" x="498" y="500" width="498" height="494" frameX="-82" frameY="-64" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>
