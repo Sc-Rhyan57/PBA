@@ -1,0 +1,16 @@
+--local shootName = {
+--	{'shootLEFT'},
+--	{'shootDOWN'},
+--	{'shootUP'},
+--	{'shootRIGHT'},
+--	}
+
+--function goodNoteHit(id, dir, noteType, isSustainNote)
+    --if noteType == 'ShotNote' then 
+    --    playSound('shot', 0.5)
+   --     local dadx = getProperty('dad.x')
+    --    setProperty('dad.x',dadx - 20)
+    --    characterPlayAnim('boyfriend',shootName[dir+ 1][1] , true)
+	--	setProperty('boyfriend.specialAnim', true);
+  --  end
+--end
