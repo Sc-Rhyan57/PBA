@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Darwin Idle"
+		},
+		{
+			"offsets": [
+				82,
+				-7
+			],
+			"loop": false,
+			"fps": 22,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Darwin left"
+		},
+		{
+			"offsets": [
+				-32,
+				-11
+			],
+			"loop": false,
+			"fps": 22,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Darwin right"
+		},
+		{
+			"offsets": [
+				-11,
+				-49
+			],
+			"loop": false,
+			"fps": 22,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Darwin down"
+		},
+		{
+			"offsets": [
+				-18,
+				54
+			],
+			"loop": false,
+			"fps": 22,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Darwin up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/darwinretcon-eyeburive",
+	"position": [
+		100,
+		480
+	],
+	"healthicon": "darwin",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		120,
+		115
+	],
+	"camera_position": [
+		-140,
+		-20
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 1.1
+}
