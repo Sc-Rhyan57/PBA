@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="well.png">
+<SubTexture name="well0000" x="0" y="0" width="1960" height="1120" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="well0001" x="1960" y="0" width="1960" height="1120" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="well0002" x="0" y="1120" width="1960" height="1120" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="well0003" x="1960" y="1120" width="1960" height="1120" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="well0004" x="0" y="2240" width="1960" height="1120" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>
