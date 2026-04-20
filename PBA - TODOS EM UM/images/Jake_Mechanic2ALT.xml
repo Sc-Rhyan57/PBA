@@ -1,0 +1,15 @@
+<TextureAtlas imagePath="Jake_Mechanic2ALT">
+    <SubTexture name="Jake Mechanic2 Alt Charge0000" x="0" y="0" width="120" height="115" frameWidth="324" frameHeight="320" frameX="-202" frameY="-4" />
+    <SubTexture name="Jake Mechanic2 Alt Charge0001" x="121" y="0" width="146" height="133" frameWidth="324" frameHeight="320" frameX="-175" frameY="-7" />
+    <SubTexture name="Jake Mechanic2 Alt Charge0002" x="268" y="0" width="218" height="211" frameWidth="324" frameHeight="320" frameX="-106" frameY="0" />
+    <SubTexture name="Jake Mechanic2 Alt Charge0003" x="268" y="0" width="218" height="211" frameWidth="324" frameHeight="320" frameX="-106" frameY="0" />
+    <SubTexture name="Jake Mechanic2 Alt Charge0004" x="487" y="0" width="300" height="294" frameWidth="324" frameHeight="320" frameX="-21" frameY="-9" />
+    <SubTexture name="Jake Mechanic2 Alt Charge0005" x="487" y="0" width="300" height="294" frameWidth="324" frameHeight="320" frameX="-21" frameY="-9" />
+    <SubTexture name="Jake Mechanic2 Alt Charge0006" x="0" y="304" width="312" height="304" frameWidth="324" frameHeight="320" frameX="-7" frameY="-11" />
+    <SubTexture name="Jake Mechanic2 Alt Charge0007" x="0" y="304" width="312" height="304" frameWidth="324" frameHeight="320" frameX="-7" frameY="-11" />
+    <SubTexture name="Jake Mechanic2 Alt Charge0008" x="313" y="304" width="319" height="308" frameWidth="324" frameHeight="320" frameX="0" frameY="-12" />
+    <SubTexture name="Jake Mechanic2 Alt Idle0000" x="0" y="622" width="318" height="308" frameWidth="318" frameHeight="308" frameX="0" frameY="0" />
+    <SubTexture name="Jake Mechanic2 Alt Idle0001" x="0" y="622" width="318" height="308" frameWidth="318" frameHeight="308" frameX="0" frameY="0" />
+    <SubTexture name="Jake Mechanic2 Alt Idle0002" x="319" y="622" width="318" height="308" frameWidth="318" frameHeight="308" frameX="0" frameY="0" />
+    <SubTexture name="Jake Mechanic2 Alt Idle0003" x="319" y="622" width="318" height="308" frameWidth="318" frameHeight="308" frameX="0" frameY="0" />
+</TextureAtlas>
