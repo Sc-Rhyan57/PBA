@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				100,
+				-60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				366,
+				-162
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "left",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				188,
+				-361
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "right",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "up",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "down",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				253,
+				-307
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				32,
+				271
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				359,
+				-163
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				191,
+				-357
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Finnteaser",
+	"position": [
+		120,
+		110
+	],
+	"healthicon": "newfinn",
+	"flip_x": false,
+	"healthbar_colors": [
+		168,
+		160,
+		179
+	],
+	"camera_position": [
+		-140,
+		-60
+	],
+	"sing_duration": 6.1,
+	"scale": 1.8,
+	"_editor_isPlayer": false
+}
