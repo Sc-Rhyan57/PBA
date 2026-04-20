@@ -1,0 +1,29 @@
+{
+	"storyName": "Finn Retakes",
+	"difficulties": "retake",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"back",
+		"menu_finnjake"
+	],
+	"songs": [
+		[
+			"Fallen Hero Retake",
+			"finn",
+			[82, 165, 235],
+			95
+		],
+		[
+			"Blessed-By-Sword-Retake",
+			"finn",
+			[82, 165, 235],
+			80
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Finn Retakes"
+}
